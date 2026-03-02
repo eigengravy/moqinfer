@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Rust
+moq-py/target/
+
+# Environment
+.venv*/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+.claude/

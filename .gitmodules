@@ -1,0 +1,6 @@
+[submodule "vllm-metal"]
+	path = vllm-metal
+	url = https://github.com/vllm-project/vllm-metal
+[submodule "moq"]
+	path = moq
+	url = https://github.com/moq-dev/moq.git

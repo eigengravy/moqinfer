@@ -1,0 +1,18 @@
+[package]
+name = "moq-py"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "moq_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.24", features = ["extension-module"] }
+pyo3-async-runtimes = { version = "0.24", features = ["tokio-runtime"] }
+moq-lite = { path = "../moq/rs/moq-lite" }
+moq-native = { path = "../moq/rs/moq-native" }
+tokio = { version = "1.48", features = ["full"] }
+bytes = "1"
+anyhow = "1"
+url = "2"
